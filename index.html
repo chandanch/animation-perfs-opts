@@ -31,8 +31,9 @@
         button = document.querySelector('button')
 
         button.addEventListener('click', () => {
+            console.log('clicked');
             document.querySelectorAll('.card').forEach((card) => {
-                card.classList.add('newAnim');
+                card.classList.add('newanim');
             })
         })
     </script>
